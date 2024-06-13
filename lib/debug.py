@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-import ipdb;
+import ipdb
 
-from classes.many_to_many import Article
-from classes.many_to_many import Author
-from classes.many_to_many import Magazine
+from classes.many_to_many import Band
+from classes.many_to_many import Concert
+from classes.many_to_many import Venue
 
 if __name__ == '__main__':
     print("HELLO! :) let's debug :vibing_potato:")
 
-
-    # don't remove this line, it's for debugging!
     ipdb.set_trace()
